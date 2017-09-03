@@ -1,0 +1,193 @@
+body {
+  font-family: Lato, sans-serif;
+  background-color: #f2f2f2;
+  font-weight: 300;
+  font-size: 16px;
+  color: #555;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Raleway, sans-serif; }
+
+p {
+  line-height: 28px;
+  margin-bottom: 25px; }
+
+.centered {
+  text-align: center; }
+
+a {
+  color: #f85c37; }
+  a:hover, a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0; }
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  padding: 0;
+  margin: 0; }
+
+header {
+  background-color: #2D2D2D;
+  color: #989898; }
+  header .logo {
+    margin-top: 8px;
+    float: left;
+    letter-spacing: 1px; }
+    header .logo span {
+      font-size: 26px; }
+    header .logo i {
+      font-size: 30px; }
+  header .nav_right {
+    float: right; }
+    header .nav_right ul li {
+      display: inline-block;
+      font-size: 22px;
+      padding: 10px 15px; }
+      header .nav_right ul li:hover {
+        cursor: pointer;
+        background-color: #F26978;
+        color: white; }
+  header .navicon {
+    background-color: transparent;
+    border: none;
+    font-size: 32px;
+    display: inline-block;
+    float: right; }
+
+.s_appeal {
+  background-color: #F2F2F2;
+  padding: 70px;
+  color: white;
+  background-image: url(../img/s_appeal.jpeg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center 40%; }
+  .s_appeal h1 {
+    font-weight: 300;
+    font-size: 54px;
+    line-height: 66px;
+    margin: 0; }
+
+.s_services {
+  padding-top: 30px;
+  text-align: center; }
+  .s_services i {
+    font-size: 48px; }
+  .s_services h3 {
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 30px; }
+  .s_services p {
+    margin-top: 5px;
+    font-size: 18px; }
+
+.s_apps {
+  background-color: #DFDFDF;
+  padding-top: 25px;
+  padding-bottom: 30px; }
+  .s_apps h3 {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px; }
+  .s_apps img {
+    margin-bottom: 25px;
+    display: inline-block;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 10px;
+    width: 70%;
+    -webkit-box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.6);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.6);
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out; }
+    .s_apps img:hover {
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1); }
+
+.s_create {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  .s_create .row {
+    position: relative; }
+  .s_create h3 {
+    font-weight: bold;
+    font-size: 30px; }
+  .s_create p {
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    font-size: 18px;
+    margin-top: 10px; }
+  .s_create img {
+    width: 100%;
+    position: relative; }
+  .s_create a.button_big {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+
+a.button_big {
+  font-weight: 800;
+  margin-top: 20px;
+  display: inline-block;
+  font-size: 26px;
+  padding: 20px 30px;
+  background-color: #ff93a2;
+  color: white;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 7px;
+  text-transform: uppercase; }
+  a.button_big:hover {
+    background-color: #F26978; }
+
+.s_partners {
+  padding-bottom: 25px;
+  background-color: #DFDFDF; }
+  .s_partners .owl-carousel {
+    position: relative; }
+  .s_partners h3 {
+    margin-top: 25px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 30px; }
+  .s_partners img {
+    width: 128px !important; }
+  .s_partners .owl-item {
+    text-align: center; }
+  .s_partners a {
+    display: inline-block; }
+
+.owl-prev, .owl-next {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.2); }
+
+.owl-next {
+  top: 38px;
+  right: 0;
+  background: url(../img/arrows.png) top right;
+  -webkit-background-size: cover;
+  background-size: cover; }
+
+.owl-prev {
+  top: 38px;
+  left: 0;
+  background: url(../img/arrows.png) top left;
+  -webkit-background-size: cover;
+  background-size: cover; }
